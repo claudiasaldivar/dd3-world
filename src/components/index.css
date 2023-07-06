@@ -1,0 +1,27 @@
+.toggle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 24px;
+  }
+  
+  .light {
+    background-color: #fff;
+  }
+  
+  .dark {
+    background-color: #262B3CE3;
+  }
+  
+  .dot {
+    transition: transform 0.3s;
+    background-color: #fff;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+  }
+  
+  .dark .dot {
+    transform: translateX(6px);
+  }
+  
